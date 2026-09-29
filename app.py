@@ -35,12 +35,16 @@ import re
 
 import streamlit as st
 
-from src import answer, bootstrap, config, memory as memory_mod, preflight
+from src import answer, bootstrap, config, groww_theme, memory as memory_mod, preflight
 
 st.set_page_config(
     page_title="HDFC Mutual Fund FAQ Assistant",
     layout="centered",
 )
+
+# Groww-inspired page canvas. Background CSS only; it changes no component,
+# no text colour, and no behaviour. See src/groww_theme.py.
+groww_theme.apply()
 
 #: A backend message may end in `Label: https://...`, which is how
 #: `render.render_refusal` attaches its educational link. Splitting it back out
