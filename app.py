@@ -18,6 +18,15 @@ no fetch, no chunking, and no store-write code path. `preflight` is the one
 exception and it is read-only — it checks that the store exists and matches the
 embedder before the first question, so a missing artefact is a clear message
 rather than a traceback on the user's first keystroke.
+
+One guarded exception was added for deployment: `data/chroma/` is excluded from
+Git, so a fresh clone has no store. `bootstrap` is imported here, but it is a
+`src/` module that checks the store first and, only when it is genuinely absent,
+calls the *existing* `ingest.ingest()` entry point once to build it. The
+ingestion modules are imported inside `bootstrap.ensure_store`, not here, so this
+file still contains no `loader`/`chunker` import and the query path's static
+import graph is unchanged (SC-10). When the store exists — every normal start —
+`bootstrap` is a no-op and no ingestion occurs.
 """
 
 from __future__ import annotations
@@ -26,7 +35,7 @@ import re
 
 import streamlit as st
 
-from src import answer, config, memory as memory_mod, preflight
+from src import answer, bootstrap, config, memory as memory_mod, preflight
 
 st.set_page_config(
     page_title="HDFC Mutual Fund FAQ Assistant",
@@ -127,8 +136,25 @@ def _ask(question: str) -> None:
 
 
 def _run_preflight() -> preflight.Preflight:
-    """Check the store and the embedder once per session, then cache it."""
+    """Check the store and the embedder once per session, then cache it.
+
+    `data/chroma/` is excluded from Git, so a fresh clone (and every Streamlit
+    Community Cloud deploy) starts with no store. On a missing store we build it
+    once via the existing ingestion pipeline before the preflight gate, so the
+    app is usable without a separate manual `ingest.py` step. When the store
+    already exists this is a pure no-op — the bootstrap checks the same read-only
+    preflight first and touches nothing on disk, so a normal start does no
+    ingestion (SC-10).
+    """
     if "preflight" not in st.session_state:
+        if not bootstrap.store_is_ready():
+            # Build on first start. Any failure is reported, then we fall through
+            # to the preflight gate below so the user still sees the standard
+            # "no store / run ingest.py" guidance rather than a raw traceback.
+            with st.spinner("No vector store found — building it now (one time)…"):
+                built, message = bootstrap.ensure_store()
+            if not built:
+                st.warning(message)
         st.session_state.preflight = preflight.run()
     return st.session_state.preflight
 
