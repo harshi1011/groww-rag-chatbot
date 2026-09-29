@@ -1,0 +1,40 @@
+# Mutual Fund FAQ Assistant — pinned runtime dependencies.
+# Final set as of Phase 6; verified on Python 3.12.10 / Windows 10 22H2 (x64),
+# CPU-only. Every third-party import in the codebase resolves to one of these
+# pins, and Phase 6 asserts that (SC-12, SC-14).
+#
+# Install:
+#   python -m venv .venv
+#   .venv\Scripts\python.exe -m pip install -r requirements.txt
+#
+# WHY torch is pinned explicitly and sourced from the PyTorch CPU index:
+#   1. The default PyPI torch wheel for Windows is the large CUDA build, which a
+#      CPU-only prototype does not need.
+#   2. Verified here: torch 2.14.0+cpu fails to load on this machine with
+#      "WinError 1114 ... c10.dll" (Skylake i5, no AVX-512; Windows 10 22H2).
+#      torch 2.5.1+cpu loads and runs correctly, so that is the pinned version.
+#   The +cpu build exists only on the PyTorch index, hence --extra-index-url.
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch==2.5.1+cpu
+sentence-transformers==6.1.0
+chromadb==1.5.9
+# The pure-Python vector index for chromadb. chromadb's prebuilt Rust core
+# segfaults on write on this machine (Windows, CPython 3.12) at every version
+# tested, so src/vectorstore.py pins chromadb to its SegmentAPI backend, which
+# indexes through this package. Wheels exist for this platform, so no C++
+# toolchain is needed.
+chroma-hnswlib==0.7.5
+groq==1.7.0
+streamlit==1.64.0
+python-dotenv==1.2.3
+
+# HTTP client: RESOLVED in Phase 2 step 2.0 as outcome A. All five Groww pages
+# return their facts in the initial server-rendered HTML, so the loader uses the
+# standard library (urllib + regex) and no HTTP or HTML dependency was added.
+# Evidence and measurements: doc/chunking-strategy.md §1.
+# A rendering-capable client would only be needed if a page stopped rendering
+# its facts server-side; if that happens, pin it here and justify it as forced
+# by the data. `requests` is present transitively (chromadb / huggingface-hub)
+# but is deliberately not used by the loader.

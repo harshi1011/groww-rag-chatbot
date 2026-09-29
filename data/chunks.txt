@@ -1,0 +1,500 @@
+# HDFC Mutual Fund RAG - chunked corpus (Phase 2)
+#
+# Human-readable, one chunk per block. Every chunk carries the
+# source URL it came from, so any statement can be traced back.
+# Regenerate with: .venv\Scripts\python.exe ingest.py
+
+documents: 5
+chunks: 144
+
+==============================================================================
+SOURCE  HDFC Large Cap Fund Direct Growth
+URL     https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth
+FETCHED 2026-09-29T07:49:42+00:00
+HASH    c9c3637255703f67
+==============================================================================
+
+==============================================================================
+SOURCE  HDFC Flexi Cap Direct Plan Growth
+URL     https://groww.in/mutual-funds/hdfc-equity-fund-direct-growth
+FETCHED 2026-09-29T07:49:42+00:00
+HASH    2abad2ab4bab320b
+==============================================================================
+
+==============================================================================
+SOURCE  HDFC ELSS Tax Saver Fund Direct Plan Growth
+URL     https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
+FETCHED 2026-09-29T07:49:42+00:00
+HASH    b9bb10bc322da6e3
+==============================================================================
+
+==============================================================================
+SOURCE  HDFC Small Cap Fund Direct Growth
+URL     https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth
+FETCHED 2026-09-29T07:49:42+00:00
+HASH    6499d9f46f86a287
+==============================================================================
+
+==============================================================================
+SOURCE  HDFC Balanced Advantage Fund Direct Growth
+URL     https://groww.in/mutual-funds/hdfc-balanced-advantage-fund-direct-growth
+FETCHED 2026-09-29T07:49:42+00:00
+HASH    2769a95e45d7e488
+==============================================================================
+
+
+##############################################################################
+# HDFC Large Cap Fund Direct Growth
+##############################################################################
+
+[hdfc-large-cap-fund-direct-growth-000] section: Key facts
+    HDFC Large Cap Fund Direct Growth — Key facts: Very High Risk
+
+[hdfc-large-cap-fund-direct-growth-001] section: Key facts
+    HDFC Large Cap Fund Direct Growth — Key facts: Min. for SIP: ₹100
+
+[hdfc-large-cap-fund-direct-growth-002] section: Key facts
+    HDFC Large Cap Fund Direct Growth — Key facts: Fund size (AUM): ₹39,933.37 Cr
+
+[hdfc-large-cap-fund-direct-growth-003] section: Key facts
+    HDFC Large Cap Fund Direct Growth — Key facts: Expense ratio: 1.03%
+
+[hdfc-large-cap-fund-direct-growth-004] section: Minimum investments
+    HDFC Large Cap Fund Direct Growth — Minimum investments: Min. for 1st investment: ₹100
+
+[hdfc-large-cap-fund-direct-growth-005] section: Minimum investments
+    HDFC Large Cap Fund Direct Growth — Minimum investments: Min. for 2nd investment: ₹100
+
+[hdfc-large-cap-fund-direct-growth-006] section: Minimum investments
+    HDFC Large Cap Fund Direct Growth — Minimum investments: Min. for SIP: ₹100
+
+[hdfc-large-cap-fund-direct-growth-007] section: Understand terms
+    HDFC Large Cap Fund Direct Growth — Understand terms: Annualised returns: Average of the yearly returns of a mutual fund over a given period.
+
+[hdfc-large-cap-fund-direct-growth-008] section: Understand terms
+    HDFC Large Cap Fund Direct Growth — Understand terms: Absolute returns: The total return of a mutual fund over a given period.
+
+[hdfc-large-cap-fund-direct-growth-009] section: Understand terms
+    HDFC Large Cap Fund Direct Growth — Understand terms: Expense ratio: A fee payable to a mutual fund house for managing your mutual fund investments. It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.
+
+[hdfc-large-cap-fund-direct-growth-010] section: Understand terms
+    HDFC Large Cap Fund Direct Growth — Understand terms: Tax: A percentage of your capital gains payable to the government upon exiting your mutual fund investments. Taxation is categorized as long-term capital gains (LTCG) and short-term capital gains (STCG) depending on your holding period and the type of fund.
+
+[hdfc-large-cap-fund-direct-growth-011] section: Understand terms
+    HDFC Large Cap Fund Direct Growth — Understand terms: Exit load: A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.
+
+[hdfc-large-cap-fund-direct-growth-012] section: Understand terms
+    HDFC Large Cap Fund Direct Growth — Understand terms: Stamp duty: A form of tax payable for the purchase or sale of an asset or security.
+
+[hdfc-large-cap-fund-direct-growth-013] section: Exit Load
+    HDFC Large Cap Fund Direct Growth — Exit Load: 08 May 2015: Exit load of 1% if redeemed within 1 year
+
+[hdfc-large-cap-fund-direct-growth-014] section: Exit Load
+    HDFC Large Cap Fund Direct Growth — Exit Load: 16 Feb 2015: Exit load of 1% if redeemed within 18 months
+
+[hdfc-large-cap-fund-direct-growth-015] section: Exit Load
+    HDFC Large Cap Fund Direct Growth — Exit Load: 01 Jan 2013: Exit load of 1% if redeemed within 1 year
+
+[hdfc-large-cap-fund-direct-growth-016] section: Exit load, stamp duty and tax
+    HDFC Large Cap Fund Direct Growth — Exit load, stamp duty and tax: Exit load: Exit load of 1% if redeemed within 1 year
+
+[hdfc-large-cap-fund-direct-growth-017] section: Exit load, stamp duty and tax
+    HDFC Large Cap Fund Direct Growth — Exit load, stamp duty and tax: Stamp duty on investment: 0.005% (from July 1st, 2020)
+
+[hdfc-large-cap-fund-direct-growth-018] section: Tax implication
+    HDFC Large Cap Fund Direct Growth — Tax implication: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+
+[hdfc-large-cap-fund-direct-growth-019] section: About
+    HDFC Large Cap Fund Direct Growth — About: HDFC Large Cap Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Rahul Baijal is the Current Fund Manager of HDFC Large Cap Fund Direct Growth fund.
+
+[hdfc-large-cap-fund-direct-growth-020] section: About
+    HDFC Large Cap Fund Direct Growth — About: The HDFC Large Cap Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 1% if redeemed within 1 year
+
+[hdfc-large-cap-fund-direct-growth-021] section: About
+    HDFC Large Cap Fund Direct Growth — About: Investment Objective: The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Large-Cap companies.
+
+[hdfc-large-cap-fund-direct-growth-022] section: About
+    HDFC Large Cap Fund Direct Growth — About: Fund benchmark: NIFTY 100 Total Return Index
+
+[hdfc-large-cap-fund-direct-growth-023] section: About
+    HDFC Large Cap Fund Direct Growth — About: Scheme Information Document(SID)
+
+[hdfc-large-cap-fund-direct-growth-024] section: About
+    HDFC Large Cap Fund Direct Growth — About: Fund house: HDFC Mutual Fund
+
+[hdfc-large-cap-fund-direct-growth-025] section: About
+    HDFC Large Cap Fund Direct Growth — About: Total AUM: ₹9,86,236.84 Cr
+
+[hdfc-large-cap-fund-direct-growth-026] section: About
+    HDFC Large Cap Fund Direct Growth — About: Date of Incorporation: 10 Dec 1999
+
+[hdfc-large-cap-fund-direct-growth-027] section: About
+    HDFC Large Cap Fund Direct Growth — About: Custodian: HDFC Bank
+
+[hdfc-large-cap-fund-direct-growth-028] section: About
+    HDFC Large Cap Fund Direct Growth — About: Registrar & Transfer Agent: Cams
+
+
+##############################################################################
+# HDFC Flexi Cap Direct Plan Growth
+##############################################################################
+
+[hdfc-equity-fund-direct-growth-000] section: Key facts
+    HDFC Flexi Cap Direct Plan Growth — Key facts: Very High Risk
+
+[hdfc-equity-fund-direct-growth-001] section: Key facts
+    HDFC Flexi Cap Direct Plan Growth — Key facts: Min. for SIP: ₹100
+
+[hdfc-equity-fund-direct-growth-002] section: Key facts
+    HDFC Flexi Cap Direct Plan Growth — Key facts: Fund size (AUM): ₹1,13,606.47 Cr
+
+[hdfc-equity-fund-direct-growth-003] section: Key facts
+    HDFC Flexi Cap Direct Plan Growth — Key facts: Expense ratio: 0.77%
+
+[hdfc-equity-fund-direct-growth-004] section: Minimum investments
+    HDFC Flexi Cap Direct Plan Growth — Minimum investments: Min. for 1st investment: ₹100
+
+[hdfc-equity-fund-direct-growth-005] section: Minimum investments
+    HDFC Flexi Cap Direct Plan Growth — Minimum investments: Min. for 2nd investment: ₹100
+
+[hdfc-equity-fund-direct-growth-006] section: Minimum investments
+    HDFC Flexi Cap Direct Plan Growth — Minimum investments: Min. for SIP: ₹100
+
+[hdfc-equity-fund-direct-growth-007] section: Understand terms
+    HDFC Flexi Cap Direct Plan Growth — Understand terms: Annualised returns: Average of the yearly returns of a mutual fund over a given period.
+
+[hdfc-equity-fund-direct-growth-008] section: Understand terms
+    HDFC Flexi Cap Direct Plan Growth — Understand terms: Absolute returns: The total return of a mutual fund over a given period.
+
+[hdfc-equity-fund-direct-growth-009] section: Understand terms
+    HDFC Flexi Cap Direct Plan Growth — Understand terms: Expense ratio: A fee payable to a mutual fund house for managing your mutual fund investments. It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.
+
+[hdfc-equity-fund-direct-growth-010] section: Understand terms
+    HDFC Flexi Cap Direct Plan Growth — Understand terms: Tax: A percentage of your capital gains payable to the government upon exiting your mutual fund investments. Taxation is categorized as long-term capital gains (LTCG) and short-term capital gains (STCG) depending on your holding period and the type of fund.
+
+[hdfc-equity-fund-direct-growth-011] section: Understand terms
+    HDFC Flexi Cap Direct Plan Growth — Understand terms: Exit load: A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.
+
+[hdfc-equity-fund-direct-growth-012] section: Understand terms
+    HDFC Flexi Cap Direct Plan Growth — Understand terms: Stamp duty: A form of tax payable for the purchase or sale of an asset or security.
+
+[hdfc-equity-fund-direct-growth-013] section: Exit Load
+    HDFC Flexi Cap Direct Plan Growth — Exit Load: 01 Jan 2013: Exit load of 1% if redeemed within 1 year
+
+[hdfc-equity-fund-direct-growth-014] section: Exit load, stamp duty and tax
+    HDFC Flexi Cap Direct Plan Growth — Exit load, stamp duty and tax: Exit load: Exit load of 1% if redeemed within 1 year
+
+[hdfc-equity-fund-direct-growth-015] section: Exit load, stamp duty and tax
+    HDFC Flexi Cap Direct Plan Growth — Exit load, stamp duty and tax: Stamp duty on investment: 0.005% (from July 1st, 2020)
+
+[hdfc-equity-fund-direct-growth-016] section: Tax implication
+    HDFC Flexi Cap Direct Plan Growth — Tax implication: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+
+[hdfc-equity-fund-direct-growth-017] section: About
+    HDFC Flexi Cap Direct Plan Growth — About: HDFC Flexi Cap Direct Plan Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Dhruv Muchhal is the Current Fund Manager of HDFC Flexi Cap Direct Plan Growth fund.
+
+[hdfc-equity-fund-direct-growth-018] section: About
+    HDFC Flexi Cap Direct Plan Growth — About: The HDFC Flexi Cap Direct Plan Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 1% if redeemed within 1 year
+
+[hdfc-equity-fund-direct-growth-019] section: About
+    HDFC Flexi Cap Direct Plan Growth — About: Investment Objective: The scheme seeks to generate capital appreciation / income from a portfolio, predominantly invested in equity & equity related instruments.
+
+[hdfc-equity-fund-direct-growth-020] section: About
+    HDFC Flexi Cap Direct Plan Growth — About: Fund benchmark: NIFTY 500 Total Return Index
+
+[hdfc-equity-fund-direct-growth-021] section: About
+    HDFC Flexi Cap Direct Plan Growth — About: Scheme Information Document(SID)
+
+[hdfc-equity-fund-direct-growth-022] section: About
+    HDFC Flexi Cap Direct Plan Growth — About: Fund house: HDFC Mutual Fund
+
+[hdfc-equity-fund-direct-growth-023] section: About
+    HDFC Flexi Cap Direct Plan Growth — About: Total AUM: ₹9,86,236.84 Cr
+
+[hdfc-equity-fund-direct-growth-024] section: About
+    HDFC Flexi Cap Direct Plan Growth — About: Date of Incorporation: 10 Dec 1999
+
+[hdfc-equity-fund-direct-growth-025] section: About
+    HDFC Flexi Cap Direct Plan Growth — About: Custodian: Deutsche Bank
+
+[hdfc-equity-fund-direct-growth-026] section: About
+    HDFC Flexi Cap Direct Plan Growth — About: Registrar & Transfer Agent: Cams
+
+
+##############################################################################
+# HDFC ELSS Tax Saver Fund Direct Plan Growth
+##############################################################################
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-000] section: Key facts
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Key facts: ELSS • 3Y Lock-in
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-001] section: Key facts
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Key facts: Very High Risk
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-002] section: Key facts
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Key facts: Min. for SIP: ₹500
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-003] section: Key facts
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Key facts: Fund size (AUM): ₹15,991.78 Cr
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-004] section: Key facts
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Key facts: Expense ratio: 1.21%
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-005] section: Minimum investments
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Minimum investments: Min. for 1st investment: ₹500
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-006] section: Minimum investments
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Minimum investments: Min. for 2nd investment: ₹500
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-007] section: Minimum investments
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Minimum investments: Min. for SIP: ₹500
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-008] section: Understand terms
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Understand terms: Annualised returns: Average of the yearly returns of a mutual fund over a given period.
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-009] section: Understand terms
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Understand terms: Absolute returns: The total return of a mutual fund over a given period.
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-010] section: Understand terms
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Understand terms: Expense ratio: A fee payable to a mutual fund house for managing your mutual fund investments. It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-011] section: Understand terms
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Understand terms: Tax: A percentage of your capital gains payable to the government upon exiting your mutual fund investments. Taxation is categorized as long-term capital gains (LTCG) and short-term capital gains (STCG) depending on your holding period and the type of fund.
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-012] section: Understand terms
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Understand terms: Exit load: A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-013] section: Understand terms
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Understand terms: Stamp duty: A form of tax payable for the purchase or sale of an asset or security.
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-014] section: Exit Load
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Exit Load: 01 Jan 2013: Nil (no exit load)
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-015] section: Exit load, stamp duty and tax
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Exit load, stamp duty and tax: Exit load: Nil
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-016] section: Exit load, stamp duty and tax
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Exit load, stamp duty and tax: Stamp duty on investment: 0.005% (from July 1st, 2020)
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-017] section: Tax implication
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — Tax implication: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-018] section: About
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — About: HDFC ELSS Tax Saver Fund Direct Plan Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Amar Kalkundrikar is the Current Fund Manager of HDFC ELSS Tax Saver Fund Direct Plan Growth fund.
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-019] section: About
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — About: The HDFC ELSS Tax Saver Fund Direct Plan Growth is rated Very High risk. Minimum SIP Investment is set to ₹500. Minimum Lumpsum Investment is ₹500.
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-020] section: About
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — About: Investment Objective: The scheme seeks to generate capital appreciation / income from a portfolio, comprising predominantly of equity & equity related instruments.
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-021] section: About
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — About: Fund benchmark: NIFTY 500 Total Return Index
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-022] section: About
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — About: Scheme Information Document(SID)
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-023] section: About
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — About: Fund house: HDFC Mutual Fund
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-024] section: About
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — About: Total AUM: ₹9,86,236.84 Cr
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-025] section: About
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — About: Date of Incorporation: 10 Dec 1999
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-026] section: About
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — About: Custodian: Deutsche Bank
+
+[hdfc-elss-tax-saver-fund-direct-plan-growth-027] section: About
+    HDFC ELSS Tax Saver Fund Direct Plan Growth — About: Registrar & Transfer Agent: Cams
+
+
+##############################################################################
+# HDFC Small Cap Fund Direct Growth
+##############################################################################
+
+[hdfc-small-cap-fund-direct-growth-000] section: Key facts
+    HDFC Small Cap Fund Direct Growth — Key facts: Very High Risk
+
+[hdfc-small-cap-fund-direct-growth-001] section: Key facts
+    HDFC Small Cap Fund Direct Growth — Key facts: Min. for SIP: ₹100
+
+[hdfc-small-cap-fund-direct-growth-002] section: Key facts
+    HDFC Small Cap Fund Direct Growth — Key facts: Fund size (AUM): ₹41,890.86 Cr
+
+[hdfc-small-cap-fund-direct-growth-003] section: Key facts
+    HDFC Small Cap Fund Direct Growth — Key facts: Expense ratio: 0.78%
+
+[hdfc-small-cap-fund-direct-growth-004] section: Minimum investments
+    HDFC Small Cap Fund Direct Growth — Minimum investments: Min. for 1st investment: ₹100
+
+[hdfc-small-cap-fund-direct-growth-005] section: Minimum investments
+    HDFC Small Cap Fund Direct Growth — Minimum investments: Min. for 2nd investment: ₹100
+
+[hdfc-small-cap-fund-direct-growth-006] section: Minimum investments
+    HDFC Small Cap Fund Direct Growth — Minimum investments: Min. for SIP: ₹100
+
+[hdfc-small-cap-fund-direct-growth-007] section: Understand terms
+    HDFC Small Cap Fund Direct Growth — Understand terms: Annualised returns: Average of the yearly returns of a mutual fund over a given period.
+
+[hdfc-small-cap-fund-direct-growth-008] section: Understand terms
+    HDFC Small Cap Fund Direct Growth — Understand terms: Absolute returns: The total return of a mutual fund over a given period.
+
+[hdfc-small-cap-fund-direct-growth-009] section: Understand terms
+    HDFC Small Cap Fund Direct Growth — Understand terms: Expense ratio: A fee payable to a mutual fund house for managing your mutual fund investments. It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.
+
+[hdfc-small-cap-fund-direct-growth-010] section: Understand terms
+    HDFC Small Cap Fund Direct Growth — Understand terms: Tax: A percentage of your capital gains payable to the government upon exiting your mutual fund investments. Taxation is categorized as long-term capital gains (LTCG) and short-term capital gains (STCG) depending on your holding period and the type of fund.
+
+[hdfc-small-cap-fund-direct-growth-011] section: Understand terms
+    HDFC Small Cap Fund Direct Growth — Understand terms: Exit load: A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.
+
+[hdfc-small-cap-fund-direct-growth-012] section: Understand terms
+    HDFC Small Cap Fund Direct Growth — Understand terms: Stamp duty: A form of tax payable for the purchase or sale of an asset or security.
+
+[hdfc-small-cap-fund-direct-growth-013] section: Exit Load
+    HDFC Small Cap Fund Direct Growth — Exit Load: 08 May 2015: Exit load of 1% if redeemed within 1 year
+
+[hdfc-small-cap-fund-direct-growth-014] section: Exit Load
+    HDFC Small Cap Fund Direct Growth — Exit Load: 18 Dec 2014: Exit load of 2% if redeemed within 12 months, 1% if redeemed after 12 months but within 24 months and 0.50% if redeemed after 24 months but within 36 months
+
+[hdfc-small-cap-fund-direct-growth-015] section: Exit Load
+    HDFC Small Cap Fund Direct Growth — Exit Load: 01 Jul 2014: Exit load of 2% if redeemed within 12 months and 1% if redeemed after 12 months but before 18 months
+
+[hdfc-small-cap-fund-direct-growth-016] section: Exit Load
+    HDFC Small Cap Fund Direct Growth — Exit Load: 01 Jan 2013: Exit load of 1% if redeemed within 1 year
+
+[hdfc-small-cap-fund-direct-growth-017] section: Exit load, stamp duty and tax
+    HDFC Small Cap Fund Direct Growth — Exit load, stamp duty and tax: Exit load: Exit load of 1% if redeemed within 1 year
+
+[hdfc-small-cap-fund-direct-growth-018] section: Exit load, stamp duty and tax
+    HDFC Small Cap Fund Direct Growth — Exit load, stamp duty and tax: Stamp duty on investment: 0.005% (from July 1st, 2020)
+
+[hdfc-small-cap-fund-direct-growth-019] section: Tax implication
+    HDFC Small Cap Fund Direct Growth — Tax implication: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+
+[hdfc-small-cap-fund-direct-growth-020] section: About
+    HDFC Small Cap Fund Direct Growth — About: HDFC Small Cap Fund Direct Growth is a Equity Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Dhruv Muchhal is the Current Fund Manager of HDFC Small Cap Fund Direct Growth fund.
+
+[hdfc-small-cap-fund-direct-growth-021] section: About
+    HDFC Small Cap Fund Direct Growth — About: The HDFC Small Cap Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit load of 1% if redeemed within 1 year
+
+[hdfc-small-cap-fund-direct-growth-022] section: About
+    HDFC Small Cap Fund Direct Growth — About: Investment Objective: The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies.
+
+[hdfc-small-cap-fund-direct-growth-023] section: About
+    HDFC Small Cap Fund Direct Growth — About: Fund benchmark: BSE 250 SmallCap Total Return Index
+
+[hdfc-small-cap-fund-direct-growth-024] section: About
+    HDFC Small Cap Fund Direct Growth — About: Scheme Information Document(SID)
+
+[hdfc-small-cap-fund-direct-growth-025] section: About
+    HDFC Small Cap Fund Direct Growth — About: Fund house: HDFC Mutual Fund
+
+[hdfc-small-cap-fund-direct-growth-026] section: About
+    HDFC Small Cap Fund Direct Growth — About: Total AUM: ₹9,86,236.84 Cr
+
+[hdfc-small-cap-fund-direct-growth-027] section: About
+    HDFC Small Cap Fund Direct Growth — About: Date of Incorporation: 10 Dec 1999
+
+[hdfc-small-cap-fund-direct-growth-028] section: About
+    HDFC Small Cap Fund Direct Growth — About: Custodian: Citibank NA
+
+[hdfc-small-cap-fund-direct-growth-029] section: About
+    HDFC Small Cap Fund Direct Growth — About: Registrar & Transfer Agent: Cams
+
+
+##############################################################################
+# HDFC Balanced Advantage Fund Direct Growth
+##############################################################################
+
+[hdfc-balanced-advantage-fund-direct-growth-000] section: Key facts
+    HDFC Balanced Advantage Fund Direct Growth — Key facts: Very High Risk
+
+[hdfc-balanced-advantage-fund-direct-growth-001] section: Key facts
+    HDFC Balanced Advantage Fund Direct Growth — Key facts: Min. for SIP: ₹100
+
+[hdfc-balanced-advantage-fund-direct-growth-002] section: Key facts
+    HDFC Balanced Advantage Fund Direct Growth — Key facts: Fund size (AUM): ₹1,07,295.79 Cr
+
+[hdfc-balanced-advantage-fund-direct-growth-003] section: Key facts
+    HDFC Balanced Advantage Fund Direct Growth — Key facts: Expense ratio: 0.78%
+
+[hdfc-balanced-advantage-fund-direct-growth-004] section: Minimum investments
+    HDFC Balanced Advantage Fund Direct Growth — Minimum investments: Min. for 1st investment: ₹100
+
+[hdfc-balanced-advantage-fund-direct-growth-005] section: Minimum investments
+    HDFC Balanced Advantage Fund Direct Growth — Minimum investments: Min. for 2nd investment: ₹100
+
+[hdfc-balanced-advantage-fund-direct-growth-006] section: Minimum investments
+    HDFC Balanced Advantage Fund Direct Growth — Minimum investments: Min. for SIP: ₹100
+
+[hdfc-balanced-advantage-fund-direct-growth-007] section: Understand terms
+    HDFC Balanced Advantage Fund Direct Growth — Understand terms: Annualised returns: Average of the yearly returns of a mutual fund over a given period.
+
+[hdfc-balanced-advantage-fund-direct-growth-008] section: Understand terms
+    HDFC Balanced Advantage Fund Direct Growth — Understand terms: Absolute returns: The total return of a mutual fund over a given period.
+
+[hdfc-balanced-advantage-fund-direct-growth-009] section: Understand terms
+    HDFC Balanced Advantage Fund Direct Growth — Understand terms: Expense ratio: A fee payable to a mutual fund house for managing your mutual fund investments. It is the total percentage of a company's fund assets used for administrative, management, advertising, and other expenses.
+
+[hdfc-balanced-advantage-fund-direct-growth-010] section: Understand terms
+    HDFC Balanced Advantage Fund Direct Growth — Understand terms: Tax: A percentage of your capital gains payable to the government upon exiting your mutual fund investments. Taxation is categorized as long-term capital gains (LTCG) and short-term capital gains (STCG) depending on your holding period and the type of fund.
+
+[hdfc-balanced-advantage-fund-direct-growth-011] section: Understand terms
+    HDFC Balanced Advantage Fund Direct Growth — Understand terms: Exit load: A fee payable to a mutual fund house for exiting a fund (fully or partially) before the completion of a specified period from the date of investment.
+
+[hdfc-balanced-advantage-fund-direct-growth-012] section: Understand terms
+    HDFC Balanced Advantage Fund Direct Growth — Understand terms: Stamp duty: A form of tax payable for the purchase or sale of an asset or security.
+
+[hdfc-balanced-advantage-fund-direct-growth-013] section: Exit Load
+    HDFC Balanced Advantage Fund Direct Growth — Exit Load: 01 Jun 2018: Exit Load for units in excess of 15% of the investment,1% will be charged for redemption within 1 year.
+
+[hdfc-balanced-advantage-fund-direct-growth-014] section: Exit Load
+    HDFC Balanced Advantage Fund Direct Growth — Exit Load: 08 May 2015: Exit load of 1% if redeemed within 1 year
+
+[hdfc-balanced-advantage-fund-direct-growth-015] section: Exit Load
+    HDFC Balanced Advantage Fund Direct Growth — Exit Load: 18 Dec 2014: Exit load of 2% if redeemed within 12 months, 1% if redeemed after 12 months but within 24 months and 0.50% if redeemed after 24 months but within 36 months
+
+[hdfc-balanced-advantage-fund-direct-growth-016] section: Exit Load
+    HDFC Balanced Advantage Fund Direct Growth — Exit Load: 01 Jan 2013: Exit load of 1% if redeemed within 1 year
+
+[hdfc-balanced-advantage-fund-direct-growth-017] section: Exit load, stamp duty and tax
+    HDFC Balanced Advantage Fund Direct Growth — Exit load, stamp duty and tax: Exit load: Exit Load for units in excess of 15% of the investment,1% will be charged for redemption within 1 year.
+
+[hdfc-balanced-advantage-fund-direct-growth-018] section: Exit load, stamp duty and tax
+    HDFC Balanced Advantage Fund Direct Growth — Exit load, stamp duty and tax: Stamp duty on investment: 0.005% (from July 1st, 2020)
+
+[hdfc-balanced-advantage-fund-direct-growth-019] section: Tax implication
+    HDFC Balanced Advantage Fund Direct Growth — Tax implication: If you redeem within one year, returns are taxed at 20%. If you redeem after one year, returns exceeding Rs 1.25 lakh in a financial year are taxed at 12.5%.
+
+[hdfc-balanced-advantage-fund-direct-growth-020] section: About
+    HDFC Balanced Advantage Fund Direct Growth — About: HDFC Balanced Advantage Fund Direct Growth is a Hybrid Mutual Fund Scheme launched by HDFC Mutual Fund. This scheme was made available to investors on 10 Dec 1999. Anil Bamboli is the Current Fund Manager of HDFC Balanced Advantage Fund Direct Growth fund.
+
+[hdfc-balanced-advantage-fund-direct-growth-021] section: About
+    HDFC Balanced Advantage Fund Direct Growth — About: The HDFC Balanced Advantage Fund Direct Growth is rated Very High risk. Minimum SIP Investment is set to ₹100. Minimum Lumpsum Investment is ₹100. Exit Load for units in excess of 15% of the investment,1% will be charged for redemption within 1 year.
+
+[hdfc-balanced-advantage-fund-direct-growth-022] section: About
+    HDFC Balanced Advantage Fund Direct Growth — About: Investment Objective: The Scheme seeks to provide long term capital appreciation / income from a dynamic mix of equity and debt investments.
+
+[hdfc-balanced-advantage-fund-direct-growth-023] section: About
+    HDFC Balanced Advantage Fund Direct Growth — About: Fund benchmark: NIFTY 50 Hybrid Composite Debt 50:50 Index
+
+[hdfc-balanced-advantage-fund-direct-growth-024] section: About
+    HDFC Balanced Advantage Fund Direct Growth — About: Scheme Information Document(SID)
+
+[hdfc-balanced-advantage-fund-direct-growth-025] section: About
+    HDFC Balanced Advantage Fund Direct Growth — About: Fund house: HDFC Mutual Fund
+
+[hdfc-balanced-advantage-fund-direct-growth-026] section: About
+    HDFC Balanced Advantage Fund Direct Growth — About: Total AUM: ₹9,86,236.84 Cr
+
+[hdfc-balanced-advantage-fund-direct-growth-027] section: About
+    HDFC Balanced Advantage Fund Direct Growth — About: Date of Incorporation: 10 Dec 1999
+
+[hdfc-balanced-advantage-fund-direct-growth-028] section: About
+    HDFC Balanced Advantage Fund Direct Growth — About: Custodian: HDFC Bank
+
+[hdfc-balanced-advantage-fund-direct-growth-029] section: About
+    HDFC Balanced Advantage Fund Direct Growth — About: Registrar & Transfer Agent: Cams

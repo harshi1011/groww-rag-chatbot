@@ -1,0 +1,22 @@
+# Secrets — never commit. The real key lives only in .env, which is ignored.
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Model cache (Hugging Face / sentence-transformers), if kept inside the repo
+.cache/
+huggingface/
+models/
+
+# Generated ingestion artefacts — rebuilt by `python ingest.py`, never hand-edited.
+# data/chunks.txt is intentionally NOT ignored: it is a reviewable deliverable (PRD §11).
+data/chroma/
+data/manifest.json
