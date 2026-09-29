@@ -12,12 +12,21 @@
 #      CPU-only prototype does not need.
 #   2. Verified here: torch 2.14.0+cpu fails to load on this machine with
 #      "WinError 1114 ... c10.dll" (Skylake i5, no AVX-512; Windows 10 22H2).
-#      torch 2.5.1+cpu loads and runs correctly, so that is the pinned version.
+#      torch 2.5.1 loads and runs correctly, so that is the pinned version.
 #   The +cpu build exists only on the PyTorch index, hence --extra-index-url.
+#
+#   The pin is the BASE version `2.5.1`, not the local label `2.5.1+cpu`.
+#   `--extra-index-url` already resolves to the CPU wheel on every platform, and
+#   a PEP 440 local label (`+cpu`) makes `==` an exact, platform-specific match:
+#   on the Linux image used by Streamlit Community Cloud no wheel resolves to the
+#   literal `2.5.1+cpu`, so pip fails with "Could not find a version that
+#   satisfies the requirement torch==2.5.1+cpu". Dropping the label lets the CPU
+#   index supply the same `2.5.1+cpu` wheel everywhere, so this one file now
+#   installs unchanged on both this Windows box and Streamlit Cloud.
 
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-torch==2.5.1+cpu
+torch==2.5.1
 sentence-transformers==6.1.0
 chromadb==1.5.9
 # The pure-Python vector index for chromadb. chromadb's prebuilt Rust core
